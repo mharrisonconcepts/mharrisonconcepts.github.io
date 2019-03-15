@@ -7,168 +7,26 @@
 				<meta name="viewport" content="width=device-width, initial-scale=1.0">
 					<title>Matthew Harrison</title>
 
+					<link rel="stylesheet" type="text/css" href="style.css">
 
-
-
-
-					<style type="text/css">
-		h1 {
-			text-align: center;
-			font-size: 40pt;
-			color: #e6b8b8;
-			text-decoration: underline;
-		}
-		h2 {
-			color: #e6e6e6;
-		}
-		body {
-			text-align: center;
-			background-color: #595959;
-			text-color: #e6b8b8;
-		}
-		p {
-			color: #e6b8b8
-		}
-		a:link, a:visited {
-			background-color: #e6b8b8;
-			color: white;
-			padding: 14px 25px;
-			text-align: center;
-			text-decoration: none;
-			display: inline-block;
-			}
-
-		.button {
-    display: inline-block;
-    position: relative;
-    margin: 1em;
-    padding: 0.67em;
-    border: transparent;
-    overflow: hidden;
-    text-decoration: none;
-    font-size: 12pt;
-    outline: none;
-    color: #FFF;
-    background: transparent;
-	font-family: serif;
-}
-
-.button span {
-    -webkit-transition: 0.6s;
-    -moz-transition: 0.6s;
-    -o-transition: 0.6s;
-    transition: 0.6s;
-    -webkit-transition-delay: 0.2s;
-    -moz-transition-delay: 0.2s;
-    -o-transition-delay: 0.2s;
-    transition-delay: 0.2s;
-}
-
-.button:before,
-.button:after {
-    content: '';
-    position: absolute;
-    top: 0.67em;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    opacity: 0;
-    -webkit-transition: .4s,opacity .6s;
-    -moz-transition: .4s,opacity .6s;
-    -o-transition: .4s,opacity .6s;
-    transition: .4s,opacity .6s;
-}
-
-/* :before */
-
-.button:before {
-    content: attr(data-hover);
-    -webkit-transform: translate(-150%,0);
-    -moz-transform: translate(-150%,0);
-    -ms-transform: translate(-150%,0);
-    -o-transform: translate(-150%,0);
-    transform: translate(-150%,0);
-}
-
-/* :after */
-
-.button:after {
-    content: attr(data-active);
-    -webkit-transform: translate(150%,0);
-    -moz-transform: translate(150%,0);
-    -ms-transform: translate(150%,0);
-    -o-transform: translate(150%,0);
-    transform: translate(150%,0);
-}
-
-/* Span on :hover and :active */
-
-.button:hover span,
-.button:active span {
-    opacity: 0;
-    -webkit-transform: scale(0.3);
-    -moz-transform: scale(0.3);
-    -ms-transform: scale(0.3);
-    -o-transform: scale(0.3);
-    transform: scale(0.3);
-}
-
-/*  
-    We show :before pseudo-element on :hover 
-    and :after pseudo-element on :active 
-*/
-
-.button:hover:before,
-.button:active:after {
-    opacity: 1;
-    -webkit-transform: translate(0,0);
-    -moz-transform: translate(0,0);
-    -ms-transform: translate(0,0);
-    -o-transform: translate(0,0);
-    transform: translate(0,0);
-    -webkit-transition-delay: .4s;
-    -moz-transition-delay: .4s;
-    -o-transition-delay: .4s;
-    transition-delay: .4s;
-}
-
-/* 
-  We hide :before pseudo-element on :active
-*/
-
-.button:active:before {
-    -webkit-transform: translate(-150%,0);
-    -moz-transform: translate(-150%,0);
-    -ms-transform: translate(-150%,0);
-    -o-transform: translate(-150%,0);
-    transform: translate(-150%,0);
-    -webkit-transition-delay: 0s;
-    -moz-transition-delay: 0s;
-    -o-transition-delay: 0s;
-    transition-delay: 0s;
-}
-
-
-					</style>
-
-				</head>
-				<body>
-					<h1>Matthew Harrison</h1>
-					<div class="h-card">
-						<a href="" title="You are now mousing over the text.">This button has mouseover text.</a>
-						<p>
+					</head>
+					<body>
+						<h1>Matthew Harrison</h1>
+						<div class="h-card">
+							<a href="" title="You are now mousing over the text.">This button has mouseover text.</a>
+							<p>
       Hi, my name is <span class="p-name">Matthew Harrison</span> and I am a human on the Internet.
-						</p>
-						<h2>Why I'm here</h2>
-						<p>I am interested in computer science because it helps me with my new business, it teaches me to think critically,<br>and I enjoy using computers and learning how to do new things on them.</p>
-							<button class="button" type="button" data-hover="you are now hovering" data-active="I'M ACTIVE">
-										<span>hover over this text</span>
-									</button>
+							</p>
+							<h2>Why I'm here</h2>
+							<p>I am interested in computer science because it helps me with my new business, it teaches me to think critically,<br>and I enjoy using computers and learning how to do new things on them.</p>
+								<button class="button" type="button" data-hover="you are now hovering" data-active="I'M ACTIVE">
+									<span>hover over this text</span>
+								</button>
+								<p>
 									<p>
-										<p>
 							My accomplishments so far in CS are creating my company website and creating this masterpeice of a website.
-										</p>
-										<p>
+									</p>
+									<p>
 										My goals are to finish this site and use it for practical purposes I have yet to determine and build an<br>Arduino based keyboard shortcut board.
 										</p>
 										<p>You can find me on other websites below:</p>
